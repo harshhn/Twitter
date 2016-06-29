@@ -34,7 +34,7 @@ public class SquareSpiral {
 	if(N == 0)
 	    System.out.println(new Point().toString());
 
-	    System.out.println(""+N+"th point from origin(excluding) is "+getNthPointUtil(new Point(), Direction.values()[0], 1, 1, N-1).toString());	
+	    System.out.println(""+N+"th point from origin(including) is "+getNthPointUtil(new Point(), Direction.values()[0], 1, 1, N).toString());	
     }
 
     private Point getNthPointUtil(Point point, Direction direction, int dx, int dy, int N) {
