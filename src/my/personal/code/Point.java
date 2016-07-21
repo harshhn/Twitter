@@ -48,7 +48,7 @@ public class Point {
 	System.out.println(p.toString());	
 	System.out.println("X coordinate of p: "+p.getX());
 	
-	Point q = new Point(3,2);
+	Point q = new Point(3,7);
 	System.out.println(q.toString());	
 	System.out.println("Y coordinate of q: "+q.getY());
 	
